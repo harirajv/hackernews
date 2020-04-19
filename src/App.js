@@ -30,7 +30,7 @@ const Button = ({ onClick, className = '', children }) =>
   </button>
 
 const Loading = () =>
-  <i class="fas fa-spinner"></i>
+  <div>Loading <i class="fas fa-spinner"></i></div>
 
 const withLoading = Component => ({ isLoading, ...rest }) => 
   isLoading
